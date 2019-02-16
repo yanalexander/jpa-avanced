@@ -39,8 +39,6 @@ public class Configurador extends WebMvcConfigurerAdapter {
 		return produtos;
 	}
 	
-	
-	
 	@Bean
 	public List<Categoria> categorias(CategoriaDao categoriaDao) { 
 		List<Categoria> categorias = categoriaDao.getCategorias();
